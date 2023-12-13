@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="Firefly_3d_avatar_face_59846.png">
+        <link rel="stylesheet" href="contactme.css">
+        <title>Portfolio/Contact Me</title>
+    </head>
+    <body>
+        <nav>
+            <div class="div_item_left">
+                <a
+                    href="https://instagram.com/savitar_designs?igshid=YTQwZjQ0NmI0OA=="><img
+                        class="social_icons" src="instagram.png">
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/mohammad-nazim-husain-1ab024246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img
+                        class="social_icons" src="linkedin.png">
+                </a>
+
+                <a href="https://dribbble.com/savitar_1106"><img
+                        class="social_icons" src="dribbble.png">
+                </a>
+
+                <a href="https://www.behance.net/mohammadnazim3"><img
+                        class="social_icons" src="behance.png">
+                </a>
+            </div>
+            <div class="div-item-right">
+                <a href="index.html" class="nav-items">Home</a>
+                <a href="Mohammad Nazim Husain's Resume.png"Download class="nav-items">Download Resume</a>
+                <a href="project.HTML" class="nav-items">Projects</a>
+                <a href="aboutport.html" class="nav-items">About Me</a>
+            </div>
+        </nav>
+        <h1 class="contact_head">Contact</h1>
+        <h1 class="me_head">Me</h1>
+
+        <div class="contact_form_img">
+            <div class="contact_form">
+                <form class="contact_form_fields" onsubmit="sendEmail(); reset(); return false;">
+                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="email" id="email" placeholder="Email Id">
+                    <input type="number" id="number" placeholder="Phone no.">
+                    <input type="text" id="message" row="4"
+                        placeholder="Enter your Messsage">
+                    <button type="submit"><span>Send Message</span></button>
+                </form>
+            </div>
+            <img class="contact_img" src="contact.png">
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "mohammadnazim1131@gmail.com",
+    Password : "6B7CBFDD106C2D179DED92CF704A9A402D83",
+    To : '	mn4122964@gmail.com',
+    From :'mohammadnazim1131@gmail.com',
+    Subject : "New Contact Form Enquiry",
+    Body : "Name :" + document.getElementById("name").value
+    + "<br> Email : " + document.getElementById("email").value
+    + "<br> Phone no. : " + document.getElementById("number").value
+    + "<br> Message : " + document.getElementById("message").value
+}).then(
+  message => alert("Message Sent Succesfully!")
+);
+            }
+        </script>
+    </body>
+</html>

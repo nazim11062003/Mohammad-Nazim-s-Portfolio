@@ -1,0 +1,661 @@
+#navb{
+    position:sticky;
+}
+.section1{
+    width: 100%;
+    position: relative;
+}
+.section1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(37, 36, 36);
+}
+.back{
+    opacity: .5;
+    width: 100%;
+    height: 600px;
+}
+.sf{
+    position: absolute;
+    left: 95px;
+    top: 35px;
+    width: 350px;
+    height: 200px;
+}
+.up{
+    color: white;
+    font-weight: bolder;
+    font-size: 33px;
+    position: absolute;
+    top:45%;
+    left: 160px;
+}
+.you{
+    color: rgb(165, 165, 165);
+    position: absolute;
+    font-size: 21px;
+    left: 70px;
+    top: 55%;
+}
+.learn{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 174, 255);
+    font-size: xx-large;
+    left: 9%;
+    top: 68%;
+    border-radius: 20px;
+    padding-left: 53px;
+    padding-right: 35px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    /* box-shadow: 2px 2px 2px 2px rgb(29, 162, 223); */
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,rgb(3, 44, 44),black);
+    width: 100%;
+}
+.whats_see{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.whats{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 85px;
+    margin-left: 65px;
+}
+.seemore{
+    color: white;
+    background-color: rgb(40, 39, 39);
+    font-size: small;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-right: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    height: 25px;
+}
+.news{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.defyimg{
+    width: 750px;
+    height: 410px;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.defyimg:hover{
+    border: 3px solid whitesmoke;
+}
+.defy_text{
+    position: absolute;
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    top: 1/2;
+    left: 6%;
+    margin-top: -140px;
+}
+.new_right{
+    display: flex;
+    flex-direction: column;
+}
+.news_one{
+    color: white;
+    width: 560px;
+    height: 130px;
+    background-color: rgb(40, 39,39);
+    margin-top: 65px;
+    margin-right: 65px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.news_one:hover{
+    border: 3px solid whitesmoke;
+}
+.new1{
+    display: flex;
+    justify-content: space-between;
+}
+.newsimg1{
+    height: 130px;
+    width: 180px;
+    border-radius: 15px;
+}
+.news_text1{
+    font-weight:500;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.news_two{
+    color: white;
+    width: 560px;
+    height: 130px;
+    background-color: rgb(40, 39,39);
+    margin-top: 10px;
+    margin-right: 65px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.news_two:hover{
+    border: 3px solid whitesmoke;
+}
+.new2{
+    display: flex;
+    justify-content: space-between;
+}
+.newsimg2{
+    height: 130px;
+    width: 180px;
+    border-radius: 15px;
+}
+.news_text2{
+    font-weight:500;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.news_three{
+    color: white;
+    width: 560px;
+    height: 130px;
+    background-color: rgb(40, 39,39);
+    margin-top: 10px;
+    margin-right: 65px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.news_three:hover{
+    border: 3px solid whitesmoke;
+}
+.new3{
+    display: flex;
+    justify-content: space-between;
+}
+.newsimg3{
+    height: 130px;
+    width: 180px;
+    border-radius: 15px;
+}
+.news_text3{
+    font-weight:500;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.news_four{
+    color: white;
+    width: 560px;
+    height: 130px;
+    background-color: rgb(40, 39,39);
+    margin-top: 10px;
+    margin-right: 65px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.news_four:hover{
+    border: 3px solid whitesmoke;
+}
+.new4{
+    display: flex;
+    justify-content: space-between;
+}
+.newsimg4{
+    height: 130px;
+    width: 180px;
+    border-radius: 15px;
+}
+.news_text4{
+    font-weight:500;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+}
+.games{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-left: 65px;
+}
+.lol_valo{
+    display: flex;
+    justify-content: space-between;
+}
+.lol_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.valo_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 65px;
+    cursor: pointer;
+    margin-top: 65px;
+}
+.tact_wild{
+    display: flex;
+    justify-content: space-between;
+}
+.tact_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 65px;
+    cursor: pointer;
+    margin-top: 55px;
+}
+.wild_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 65px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+.lol_img:hover{
+    border: 3px solid whitesmoke;
+}
+.valo_img:hover{
+    border: 3px solid whitesmoke;
+}
+.tact_img:hover{
+    border: 3px solid whitesmoke;
+}
+.wild_img:hover{
+    border: 3px solid whitesmoke;
+}
+.lol_logo{
+    position: absolute;
+    top: 1/2;
+    left: 8%;
+    margin-top: -165px;
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+}
+.valo_logo{
+    position: absolute;
+    top: 1/2;
+    left: 55%;
+    margin-top: -177px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.tact_logo{
+    position: absolute;
+    top: 1/2;
+    left: 8%;
+    margin-top: -177px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.wild_logo{
+    position: absolute;
+    top: 1/2;
+    left: 55%;
+    margin-top: -177px;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+}
+.rune_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 55px;
+    cursor: pointer;
+}
+.rune_img:hover{
+    border: 3px solid whitesmoke;
+}
+.rune_logo{
+    position: absolute;
+    top: 1/2;
+    left: 30%;
+    margin-top: -190px;
+    width: 190px;
+    height: 150px;
+    cursor: pointer;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+}
+.esports{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-left: 65px;
+}
+.espt_champ{
+    display: flex;
+    justify-content: space-between;
+}
+.espt_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.lol_espt_logo{
+    position: absolute;
+    top: 1/2;
+    left: 8%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-top: -190px;
+    width: 95px;
+    height: 200px;
+}
+.champ_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 65px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.valo_champ_logo{
+    position: absolute;
+    top: 1/2;
+    left: 53%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-top: -190px;
+    width: 95px;
+    height: 200px;
+    cursor: pointer;
+}
+.espt_img:hover{
+    border: 3px solid whitesmoke;
+}
+.champ_img:hover{
+    border: 3px solid whitesmoke;
+}
+
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+}
+.entertainment{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-left: 65px;
+}
+.arcane_music{
+    display: flex;
+    justify-content: space-between;
+}
+.arcane_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.arcane_logo{
+    position: absolute;
+    top: 1/2;
+    left: 8%;
+    margin-top: -165px;
+    width: 140px;
+    height: 100px;
+    cursor: pointer;
+}
+.music_img{
+    width: 650px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 65px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.music_logo{
+    position: absolute;
+    top: 1/2;
+    left: 56%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-top: -190px;
+    width: 100px;
+    height: 200px;
+    cursor: pointer;
+}
+.arcane_img:hover{
+    border: 3px solid whitesmoke;
+}
+.music_img:hover{
+    border: 3px solid whitesmoke;
+}
+
+.section6{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+}
+.forge{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 85px;
+    margin-left: 65px;
+}
+.mage_king_mayhem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.mage_img{
+    width: 430px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 65px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.king_img{
+    width: 430px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.mayhem_img{
+    width: 430px;
+    height: 160px;
+    border-radius: 10px;
+    margin-right: 45px;
+    margin-left: 25px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+.mage_img:hover{
+    border: 3px solid whitesmoke;
+}
+.king_img:hover{
+    border: 3px solid whitesmoke;
+}
+.mayhem_img:hover{
+    border: 3px solid whitesmoke;
+}
+.mage_logo{
+    position: absolute;
+    top: 1/2;
+    left: 4%;
+    margin-top: -150px;
+    width: 160px;
+    height: 130px;
+    cursor: pointer;
+}
+.king_logo{
+    position: absolute;
+    top: 1/2;
+    left: 37%;
+    margin-top: -130px;
+    width: 130px;
+    height: 90px;
+    cursor: pointer;
+}
+.mayhem_logo{
+    position: absolute;
+    top: 1/2;
+    left: 67%;
+    margin-top: -150px;
+    width: 175px;
+    height: 145px;
+    cursor: pointer;
+}
+.section7{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+.hiring{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 188px;
+}
+.team_up{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 120px;
+    color: rgb(59, 58, 58);
+    width: 420px;
+}
+.hire_img{
+    width: 750px;
+    height: 500px;
+}
+.explore{
+    background-color: rgb(185, 28, 28);
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-weight: 600;
+    margin: auto;
+    border-radius: 20px;
+    width: 250px;
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+.vacancy{
+    display: flex;
+    justify-content: space-between;
+}
+.vacancy1{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 270px;
+    border-radius: 7px;
+    background-color: rgb(228, 226, 226);
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.vacancy2{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 270px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 7px;
+    background-color: rgb(228, 226, 226);
+}
+.no_of_positions{
+    font-weight: bold;
+    font-size: 60px;
+    margin: auto;
+}
+.positions{
+    color: gray;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.no_of_offices{
+    font-weight: bold;
+    font-size: 60px;
+    margin: auto;
+}
+.offices{
+    color: gray;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 600;
+}
+.section8{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 34, 34);
+    width: 100%;
+    height: 200px;
+    color: rgb(202, 198, 198);
+}
+.section8 > p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section8 >p:hover{
+    text-decoration: underline;
+}
