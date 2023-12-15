@@ -63,15 +63,9 @@ nav{
     padding-right: 1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 1.3089005235602vw;
+    font-size: 1.0471204188482vw;
     color:#C8C1E8;
     text-decoration: none;
-}
-.name{
-    font-family: 'Roboto';
-    font-size: 1.3089005235602vw;
-    padding-left: 0.458vw;
-    font-weight: 600;
 }
 .nav-items:hover{
     margin-top: 2.695vh;
@@ -79,7 +73,7 @@ nav{
     font-family: 'Roboto';
     font-weight: 600;
     text-decoration: none;
-    font-size: 1.3089005235602vw;
+    font-size: 1.0471204188482vw;
     text-decoration: underline 2px;
     color:#C8C1E8;
 }
