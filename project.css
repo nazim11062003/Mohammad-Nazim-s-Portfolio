@@ -14,7 +14,7 @@ body{
   );
 }
 .container {
-  height: 740px;
+  height: 99.73vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,9 +24,9 @@ body{
 }
 .blob {
   position: absolute;
-  top: 10px;
-  width: 500px;
-  height: 500px;
+  top: 1.348vh;
+  width: 32.723vw;
+  height: 67.385vh;
   background: linear-gradient(
     180deg,
     rgba(159, 82, 189, 0.42) 31.77%,
@@ -38,35 +38,35 @@ body{
   transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
 }
 .blob:hover {
-  width: 520px;
-  height: 520px;
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
-  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.6),
-    inset 100px 100px 0 0px #c8b1e7, inset 200px 200px 0 0px #784ba8,
-    inset 300px 300px 0 0px #2b86c5;
+  width: 34.031vw;
+  height: 70.081vh;
+  -webkit-filter: blur(0.654vw);
+  filter: blur(0.654vw);
+  box-shadow: inset 0 0 0 0.327vw rgba(255, 255, 255, 0.6),
+    inset 6.545vw 6.545vw 0 0vw #c8b1e7, inset 13.089vw 13.089vw 0 0vw #784ba8,
+    inset 19.634vw 19.634vw 0 0vw #2b86c5;
 }
 
 @-webkit-keyframes move {
   from {
-    transform: translate(-100px, -50px) rotate(-90deg);
+    transform: translate(-6.545vw, -50px) rotate(-90deg);
     border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
   }
 
   to {
-    transform: translate(500px, 100px) rotate(-10deg);
+    transform: translate(62.723vw, 6.545vw) rotate(-10deg);
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
 
 @keyframes move {
   from {
-    transform: translate(-100px, -50px) rotate(-90deg);
+    transform: translate(-6.545vw, -50px) rotate(-90deg);
     border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
   }
 
   to {
-    transform: translate(500px, 100px) rotate(-10deg);
+    transform: translate(62.723vw, 6.545vw) rotate(-10deg);
     border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
   }
 }
@@ -81,49 +81,49 @@ nav{
     justify-content: space-between;
 }
 .nav-items{
-    padding-right: 20px;
+    padding-right:1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.0471204188482vw;
     color: #C8C1E8;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 2.695vh;
 }
 .name{
     font-family: 'Roboto';
-    font-size: 16px;
-    padding-left: 7px;
+    font-size: 1.0471204188482vw;
+    padding-left: 0.458vw;
     font-weight: 600;
-    margin-top: 20px;
-    margin-left: 70px;
+    margin-top: 2.695vh;
+    margin-left: 4.581vw;
     color: #C8C1E8;
 }
 .nav-items:hover{
-    padding-right: 20px;
+    padding-right: 1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.0471204188482vw;
     color: #C8C1E8;
     text-align: center;
     text-decoration: underline;
-    margin-top: 20px;
+    margin-top: 2.695vh;
 }
 .recent_head{
     position: relative;
-    top: -700px;
-    left: 70px;
+    top: -94.34vh;
+    left: 4.581vw;
     font-family: 'roboto';
-    font-size: 80px;
+    font-size: 5.236vw;
     font-weight: bolder;
     color: #C8C1E8;
 }
 .project_head{
     position: relative;
-    top: -700px;
-    left: 70px;
+    top: -94.34vh;
+    left: 4.581vw;
     font-family: 'roboto';
-    font-size: 80px;
+    font-size:  5.236vw;
     font-weight: lighter;
     color: #8e40f4;
 }
@@ -136,60 +136,60 @@ nav{
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -620px;
-  border-radius: 20px;
+  top: -83.558vh;
+  border-radius: 1.309vw;
   border: 3px solid #C8C1E8;
-  width: 350px;
-  height: 250px;
+  width: 22.906vw;
+  height: 33.693vh;
 }
 .project_img1{
-  width: 200px;
-  height: 130px;
-  margin-top: 10px;
-  margin-left: 75px;
+  width: 13.089vw;
+  height: 17.52vh;
+  margin-top: 1.348vh;
+  margin-left: 4.908vw;
 }
 .project_img2{
-  width: 190px;
-  height: 100px;
-  margin-top: 20px;
-  margin-left: 75px;
+  width: 12.435vw;
+  height: 13.477vh;
+  margin-top: 2.695vh;
+  margin-left: 4.908vw;
 }
 .project_img3{
-  width: 210px;
-  height: 140px;
-  margin-top: -20px;
-  margin-left: 80px;
+  width: 13.743vw;
+  height: 18.868vh;
+  margin-top: -2.695vh;
+  margin-left: 5.236vw;
 }
 .project_item_text1{
-  width: 340px;
-  height: 100px;
+  width: 22.251vw;
+  height: 13.477vh; 
+  border-radius: 1.309vw;
+  margin-left: 0.327vw;
   background-color: #C8C1E8;
-  border-radius: 20px;
-  margin-left: 5px;
 }
 .project_item_text2{
-  width: 340px;
-  height: 100px;
+  width: 22.251vw;
+  height: 13.477vh; 
+  border-radius: 1.309vw;
+  margin-left: 0.327vw;
+  margin-top: 2.695vh;
   background-color: #C8C1E8;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-left: 5px;
 }
 .project_item_text3{
-  width: 340px;
-  height: 100px;
+  width: 22.251vw;
+  height: 13.477vh; 
+  border-radius: 1.309vw;
+  margin-left: 0.327vw;
+  margin-top: 2.695vh;
   background-color: #C8C1E8;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-left: 5px;
 }
 .project_name_text1{
   color: #3e4169;
   font-family: 'roboto';
-  font-size: 28px;
+  font-size: 1.832vw;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 95px;
+  margin-top: 1.348vh;
+  margin-left: 6.217vw;
 }
 .netflixbtn{
   color:#3e4169;
@@ -197,8 +197,8 @@ nav{
   font-family: 'roboto';
   font-weight: 700;
   position: relative;
-  top: 15px;
-  margin-left: 125px;
+  top: 2.022vh;
+  margin-left: 8.181vw;
   
 }
 .netflixbtn:hover{
@@ -208,10 +208,10 @@ nav{
 .project_name_text2{
   color: #3e4169;
   font-family: 'roboto';
-  font-size: 28px;
+  font-size: 1.832vw;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 75px;
+  margin-top: 1.348vh;
+  margin-left: 4.908vw;
 }
 .riotbtn{
   color:#3e4169;
@@ -220,7 +220,7 @@ nav{
   font-weight: 700;
   position: relative;
   top: 15px;
-  margin-left: 130px;
+  margin-left: 8.508vw;
   
 }
 .riotbtn:hover{
@@ -230,10 +230,10 @@ nav{
 .project_name_text3{
   color: #3e4169;
   font-family: 'roboto';
-  font-size: 28px;
+  font-size: 1.832vw;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 87px;
+  margin-top: 1.348vh;
+  margin-left: 5.694vw;
 }
 .microsoftbtn{
   color:#3e4169;
@@ -241,8 +241,8 @@ nav{
   font-family: 'roboto';
   font-weight: 700;
   position: relative;
-  top: 15px;
-  margin-left: 135px;
+  top: 2.022vh;
+  margin-left: 8.835vw;
   
 }
 .microsoftbtn:hover{
@@ -258,35 +258,35 @@ nav{
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -550px;
-  border-radius: 20px;
+  top: -74.124vh;
+  border-radius: 1.309vw;
   border: 3px solid #C8C1E8;
-  width: 350px;
-  height: 250px;
+  width: 22.906vw;
+  height: 33.693vh;
 }
 .uiux_project_name_text1{
   color:#3e4169;
   font-family: 'roboto';
-  font-size: 22px;
+  font-size: 1.44vw;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 68px;
+  margin-top: 1.348vh;
+  margin-left: 4.45vw;
 }
 .uiux_project_name_text2{
   color:#3e4169;
   font-family: 'roboto';
-  font-size: 22px;
+  font-size: 1.44vw;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 27px;
+  margin-top: 1.348vh;
+  margin-left: 1.767vw;
 }
 .uiux_project_name_text3{
   color:#3e4169;
   font-family: 'roboto';
-  font-size: 22px;
+  font-size: 1.44vw;
   font-weight: bold;
-  margin-top: 10px;
-  margin-left: 12px;
+  margin-top: 1.348vh;
+  margin-left: 0.785vw;
 }
 .halloweenbtn{
   color:#3e4169;
@@ -294,8 +294,8 @@ nav{
   font-family: 'roboto';
   font-weight: 700;
   position: relative;
-  top: 10px;
-  margin-left: 125px;
+  top: 1.348vh;
+  margin-left: 8.181vw;
   
 }
 .halloweenbtn:hover{
@@ -308,8 +308,8 @@ nav{
   font-family: 'roboto';
   font-weight: 700;
   position: relative;
-  top: 10px;
-  margin-left: 125px;
+  top: 1.348vh;
+  margin-left: 8.181vw;
   
 }
 .nikebtn:hover{
@@ -322,8 +322,8 @@ nav{
   font-family: 'roboto';
   font-weight: 700;
   position: relative;
-  top: 10px;
-  margin-left: 125px;
+  top: 1.348vh;
+  margin-left: 8.181vw;
   
 }
 .reynabtn:hover{
@@ -331,71 +331,71 @@ nav{
   text-decoration: underline;
 }
 .uiux_project_img1{
-  width: 200px;
-  height: 130px;
-  margin-top: 10px;
-  margin-left: 75px;
-  border-radius: 10px;
+  width: 13.089vw;
+  height: 17.52vh;
+  margin-top: 1.348vh;
+  margin-left: 4.908vw;
+  border-radius: 0.654vw;
 }
 .uiux_project_img2{
-  width: 200px;
-  height: 130px;
-  margin-top: 10px;
-  margin-left: 75px;
-  border-radius: 10px;
+  width: 13.089vw;
+  height: 17.52vh;
+  margin-top: 1.348vh;
+  margin-left: 4.908vw;
+  border-radius: 0.654vw;
 }
 .uiux_project_img3{
-  width: 200px;
-  height: 130px;
-  margin-top: 10px;
-  margin-left: 75px;
-  border-radius: 10px;
+  width: 13.089vw;
+  height: 17.52vh;
+  margin-top: 1.348vh;
+  margin-left: 4.908vw;
+  border-radius: 0.654vw;
 }
 .uiux_project_item_text1{
-  width: 340px;
-  height: 100px;
+  width: 22.251vw;
+  height: 13.477vh;
   background-color: #C8C1E8;
-  border-radius: 20px;
-  margin-top: 5px;
-  margin-left: 5px;
+  border-radius: 1.309vw;
+  margin-top: 0.674vh;
+  margin-left: 0.327vw;
 }
 .uiux_project_item_text2{
-  width: 340px;
-  height: 100px;
+  width: 22.251vw;
+  height: 13.477vh;
   background-color: #C8C1E8;
-  border-radius: 20px;
-  margin-top: 5px;
-  margin-left: 5px;
+  border-radius: 1.309vw;
+  margin-top:0.674vh;
+  margin-left: 0.327vw;
 }
 .uiux_project_item_text3{
-  width: 340px;
-  height: 100px;
+  width: 22.251vw;
+  height: 13.477vh;
   background-color: #C8C1E8;
-  border-radius: 20px;
-  margin-top: 5px;
-  margin-left: 5px;
+  border-radius: 1.309vw;
+  margin-top: 0.674vh;
+  margin-left: 0.327vw;
 }
 .note1{
   color: #3e4169;
-  font-size: 14px;
+  font-size: 0.916vw;
   font-family: 'roboto';
-  margin-top: 20px;
-  width: 250px;
-  margin-left: 75px;
+  margin-top: 2.695vh;
+  width: 16.361vw;
+  margin-left: 4.908vw;
 }
 .note2{
   color: #3e4169;
-  font-size: 14px;
+  font-size: 0.916vw;
   font-family: 'roboto';
-  margin-top: 20px;
-  width: 250px;
-  margin-left: 75px;
+  margin-top: 2.695vh;
+  width: 16.361vw;
+  margin-left: 4.908vw;
 }
 .note3{
   color: #3e4169;
-  font-size: 14px;
+  font-size: 0.916vw;
   font-family: 'roboto';
-  margin-top: 20px;
-  width: 250px;
-  margin-left: 75px;
+  margin-top: 2.695vh;
+  width: 16.361vw;
+  margin-left: 4.908vw;
 }
