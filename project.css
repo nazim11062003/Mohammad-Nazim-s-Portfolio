@@ -399,3 +399,170 @@ nav{
   width: 16.361vw;
   margin-left: 4.908vw;
 }
+@media (max-width:400px) {
+  .name{
+    font-size: 2vw;
+  }
+  .div-item-right{
+    margin-right: 1vw;
+  }
+  .nav-items{
+    font-size: 2vw;
+  }
+  .nav-items:hover{
+    font-size: 2vw;
+  }
+  .recent_head{
+    font-size: 14vw;
+  }
+  .project_head{
+    font-size: 14vw;
+  }
+  .project_row_one{
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5vw;
+  }
+  .project_items{
+    width: 70vw;
+    border-radius: 5vw;
+  }
+  .project_img1{
+    width: 60vw;
+  }
+  .project_item_text1{
+    width: 60vw;
+    margin-left: 5vw;
+  }
+  .project_name_text1{
+    font-size: 7vw;
+    margin-left: 12vw;
+  }
+  .netflixbtn{
+    font-size: 4vw;
+    margin-left: 20vw;
+  }
+
+  .project_img2{
+    width: 60vw;
+  }
+  .project_item_text2{
+    width: 60vw;
+    margin-left: 5vw;
+  }
+  .project_name_text2{
+    font-size: 7vw;
+    margin-left: 3vw;
+  }
+  .riotbtn{
+    font-size: 4vw;
+    margin-left: 20vw;
+  }
+
+  .project_img3{
+    width: 60vw;
+  }
+  .project_item_text3{
+    width: 60vw;
+    margin-left: 5vw;
+  }
+  .project_name_text3{
+    font-size: 7vw;
+    margin-left: 7vw;
+  }
+  .microsoftbtn{
+    font-size: 4vw;
+    margin-left: 20vw;
+  }
+
+  .project_row_two{
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5vw;
+
+  }
+
+  .uiux_project_items{
+    width: 70vw;
+    border-radius: 5vw;
+  }
+  .uiux_project_img1{
+    width: 60vw;
+    border-radius: 3vw;
+  }
+  .uiux_project_item_text1{
+    width: 60vw;
+    margin-left: 5vw;
+    height: 12vh;
+    margin-top: 1.5vh;
+  }
+  .uiux_project_name_text1{
+    font-size: 5vw;
+  }
+  .halloweenbtn{
+    margin-left: 19vw;
+  }
+  .note1{
+    font-size: 1.8vh;
+    margin-top: 1.5vh;
+    width: 60vw;
+    margin-left: 7vw;
+  }
+
+  .uiux_project_img2{
+    width: 60vw;
+    border-radius: 3vw;
+  }
+  .uiux_project_item_text2{
+    width: 60vw;
+    margin-left: 5vw;
+    height: 12vh;
+    margin-top: 1.5vh;
+  }
+  .uiux_project_name_text2{
+    font-size: 4vw;
+    margin-left: 5vw;
+  }
+  .nikebtn{
+    margin-left: 19vw;
+  }
+  .note2{
+    font-size: 1.8vh;
+    margin-top: 1.5vh;
+    width: 60vw;
+    margin-left: 7vw;
+  }
+
+  .uiux_project_img3{
+    width: 60vw;
+    border-radius: 3vw;
+  }
+  .uiux_project_item_text3{
+    width: 60vw;
+    margin-left: 5vw;
+    height: 12vh;
+    margin-top: 1.5vh;
+  }
+  .uiux_project_name_text3{
+    font-size: 3.5vw;
+    margin-left: 5vw;
+  }
+  .reynabtn{
+    margin-left: 22vw;
+    font-size: 3vw;
+  }
+  .note3{
+    font-size: 1.8vh;
+    margin-top: 2.8vh;
+    width: 60vw;
+    margin-left: 7vw;
+  }
+  .blob{
+    width: 25vw;
+    height: 30vh;
+  }
+  .blob:hover{
+    width: 27vw;
+    height: 32vh;
+  }
+}
