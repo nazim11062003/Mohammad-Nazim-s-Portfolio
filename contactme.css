@@ -22,13 +22,13 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 55px;
+    margin-top: 1.348vh;
+    margin-left: 3.599vw;
 }
 .social_icons{
-    padding-right: 8px;
-    width: 30px;
-    height: 30px;
+    padding-right: 0.524vw;
+    width: 1.963vw;
+    height: 4.043vh;
 }
 .div-item-right{
     display: flex;
@@ -36,48 +36,42 @@ nav{
     justify-content: space-between;
 }
 .nav-items{
-    margin-top: 20px;
-    padding-right: 20px;
+    margin-top: 2.695vh;
+    padding-right: 1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.0471204188482vw;
     color:#C8C1E8;
     text-decoration: none;
 }
-.name{
-    font-family: 'Roboto';
-    font-size: 16px;
-    padding-left: 7px;
-    font-weight: 600;
-}
 .nav-items:hover{
-    margin-top: 20px;
-    padding-right: 20px;
+    margin-top: 2.695vh;
+    padding-right: 1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.0471204188482vw;
     text-decoration: underline 2px;
     color: #C8C1E8;
 }
 .contact_head{
     font-family: 'Roboto';
-    font-size: 80px;
+    font-size: 5.236vw;
     font-weight: bolder;
-    margin-left: 50px;
+    margin-left: 3.272vw;
     color: #C8C1E8;
 }
 .me_head{
-    margin-left: 50px;
+    margin-left: 3.272vw;
     font-family: 'Roboto';
     color: #8e40f4;
-    font-size: 80px;
+    font-size: 5.236vw;
     font-weight: lighter;
 }
 .contact_img{
-    width: 500px;
-    height: 540px;
-    margin-top: -38px;
+    width: 32.723vw;
+    height: 72.776vh;
+    margin-top: -5.121vh;
 }
 .contact_form_img{
     display: flex;
@@ -85,100 +79,100 @@ nav{
     justify-content:space-between;
 }
 .contact_form{
-    margin-top: 17px;
-    border-radius: 25px;
+    margin-top: 2.291vh;
+    border-radius: 1.636vw;
     position: relative;
     background-color: #C8C1E8;
-    left: 57px;
-    width: 700px;
-    height: 450px;   
+    left: 3.73vw;
+    width: 45.812vw;
+    height: 60.647vh;   
 }
 .contact_form_fields{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-top: 25px;
-    padding-left: 25px;
+    padding-top: 3.369vh;
+    padding-left: 1.636vw;
 }
 #name{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: none;
-    width: 630px;
-    height: 30px;
-    padding-left: 10px;
+    width: 41.23vw;
+    height: 4.043vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
 }
 #name:hover{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: 2px solid purple;
-    width: 630px;
-    height: 30px;
-    padding-left: 10px;
+    width: 41.23vw;
+    height: 4.043vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
 }
 #email{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: none;
-    width: 630px;
-    height: 30px;
+    width: 41.23vw;
+    height: 4.043vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
-    padding-left: 10px;
 }
 #email:hover{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: 2px solid purple;
-    width: 630px;
-    height: 30px;
+    width: 41.23vw;
+    height: 4.043vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
-    padding-left: 10px;
 }
 #number{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: none;
-    width: 630px;
-    height: 30px;
+    width: 41.23vw;
+    height: 4.043vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
-    padding-left: 10px;
 }
 #number:hover{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: 2px solid purple;
-    width: 630px;
-    height: 30px;
+    width: 41.23vw;
+    height: 4.043vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
-    padding-left: 10px;
 }
 #message{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: none;
-    width: 630px;
-    height: 100px;
+    width: 41.23vw;
+    height: 13.477vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
-    padding-left: 10px;
 }
 #message:hover{
-    margin-bottom: 20px;
-    border-radius: 10px;
+    margin-bottom: 2.695vh;
+    border-radius: 0.654vw;
     border: 2px solid purple;
-    width: 630px;
-    height: 100px;
+    width: 41.23vw;
+    height: 13.477vh;
+    padding-left: 0.654vw;
     font-family: 'roboto';
     font-weight: bold;
-    padding-left: 10px;
 }
 button {
     outline: none;
@@ -192,12 +186,12 @@ button {
     display: inline-block;
     letter-spacing: 0.05rem;
     font-weight: 700;
-    font-size: 17px;
-    border-radius: 500px;
+    font-size: 1.113vw;
+    border-radius: 32.723vw;
     overflow: hidden;
     background:PURPLE;
     color: purple;
-    width: 200px;
+    width: 13.089vw;
    }
    
    button span {
