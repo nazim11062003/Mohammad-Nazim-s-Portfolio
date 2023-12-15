@@ -130,7 +130,7 @@ nav {
 .section1 {
   display: flex;
   flex-direction: column;
-  height: 117.251vh;
+  height: 77vh;
   width: 100%;
   background: linear-gradient(
     -45deg,
@@ -248,7 +248,7 @@ nav {
 .react_logo {
   width: 6.545vw;
   height: 13.477vh;
-  margin-left: 1.963vw;
+  margin-left: -5.963vw;
   margin-top: 4.717vh;
 }
 .react_text {
@@ -270,7 +270,7 @@ nav {
 .node_logo {
   width: 6.545vw;
   height: 13.477vh;
-  margin-left: 1.963vw;
+  margin-left: -5.963vw;
   margin-top: 3.774vh;
 }
 .node_text {
@@ -292,7 +292,7 @@ nav {
 .tailwind_logo {
   width: 6.545vw;
   height: 13.477vh;
-  margin-left: -32.963vw;
+  margin-left: -5.963vw;
   margin-top: 3.774vh;
 }
 .tailwind_text {
@@ -343,7 +343,7 @@ nav {
   font-family: "roboto";
   font-size: 1.178vw;
   font-weight: lighter;
-  left: -5.563vw;
+  left: -5vw;
   top: 4.043vh;
   position: relative;
   display: inline-block;
@@ -383,11 +383,17 @@ nav {
   justify-content: space-around;
   margin-left: 6.217vw;
 }
+.rnt{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: -22.217vw;
+}
 .pj {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-right: 6.217vw;
+  margin-right: -9.217vw;
 }
 .tooltip-text {
   display: flex;
