@@ -226,4 +226,66 @@ button {
    button:hover::before {
     transform: translate3d(100%, 0, 0);
    }
+@media (max-width:400px) {
+    .nav-items{
+        font-size: 2vw;
+    }
+    .nav-items:hover{
+        font-size: 2vw;
+    }
+    .social_icons{
+        width: 3vw;
+        height: 2.5vh;
+    }
+    .contact_head{
+        font-size: 14vw;
+    }
+    .me_head{
+        font-size: 14vw;
+    }
+    .contact_form{
+        height: 50vh;
+        width: 50vw;
+    }
+    #name{
+        width: 46vw;
+    }
+    #name:hover{
+        width: 46vw;
+    }
+    #email{
+        width: 46vw;
+    }
+    #email:hover{
+        width: 46vw;
+    }
+    #number{
+        width: 46vw;
+    }
+    #number:hover{
+        width: 46vw;
+    }
+    #message{
+        width: 46vw;
+    }
+    #message:hover{
+        width: 46vw;
+    }
+    button{
+        width: 25vw;
+        border-radius: 3vw;
+        height: 5vh;
+    }
+    button span{
+        font-size: 2.3vw;
+        margin-left:-9.5vw;
+        left:4.5vw;
+        top: -0.4vh;
+    }
+    .contact_img{
+        width: 40vw;
+        height: 40vh;
+        margin-top: 12vh;
+    }
+}
    
