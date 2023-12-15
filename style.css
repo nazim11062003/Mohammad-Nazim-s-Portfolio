@@ -422,6 +422,9 @@ nav {
   .nav-items{
     font-size: 2vw;
   }
+  .nav-items:hover{
+    font-size:2vw;
+  }
   .white-board-name{
     font-size: 4vw;
     margin-top: -9vh;
