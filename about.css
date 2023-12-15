@@ -63,7 +63,7 @@ nav{
     padding-right: 1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
-    font-size: 1.0471204188482vw;
+    font-size:  1.0471204188482vw;
     color:#C8C1E8;
     text-decoration: none;
 }
@@ -73,7 +73,40 @@ nav{
     font-family: 'Roboto';
     font-weight: 600;
     text-decoration: none;
-    font-size: 1.0471204188482vw;
+    font-size:  1.0471204188482vw;
     text-decoration: underline 2px;
     color:#C8C1E8;
+}
+@media (max-width:400px) {
+    .about{
+        width: 100vw;
+        height: 96vh;
+    }
+    .div-item-right{
+        margin-right: 6.5vw;
+    }
+    .nav-items{
+        font-size: 2vw;
+    }
+    .abstract{
+        width: 50vw;
+        margin-left:-14vw;
+        margin-top: -8vh;
+        opacity: 25%;
+    }
+    .hi{
+        font-size: 4vw;
+    }
+    .text_box{
+        font-size: 3vw;
+        width: 55vw;
+        margin-left: -110vw;
+        margin-top: -21.5vh;
+    }
+    .man{
+        margin-left: 30vw;
+        margin-top: -35vh;
+        width: 90vw;
+        height: 70vh;
+    }
 }
