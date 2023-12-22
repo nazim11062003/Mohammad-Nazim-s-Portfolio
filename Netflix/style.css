@@ -1,0 +1,798 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.section1{
+    width: 100vw;
+    height: 350vh;
+    background: linear-gradient(to bottom left,#33180f,black);
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    top: 2vh;
+}
+.nav_items_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home{
+    color: #ff5927;
+}
+#home:hover{
+    cursor: pointer;
+}
+#menu:hover{
+    cursor: pointer;
+}
+#contact:hover{
+    cursor: pointer;
+}
+#about:hover{
+    cursor: pointer;
+}
+#faq:hover{
+    cursor: pointer;
+}
+.foody{
+    color: #ff5927;
+    font-size: 1.7vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3vw;
+}
+.nav_items_button1{
+    width: 6vw;
+    height: 4vh;
+    border: #ff5927 2px solid;
+    border-radius: 3vw;
+    background: none;
+    color: white;
+}
+.nav_items_button2{
+    width: 6vw;
+    height: 4vh;
+    border:none;
+    background:linear-gradient(to bottom,#ff5927,#852a0f);
+    border-radius: 3vw;
+    color: white;
+}
+.nav_items_button1:hover{
+    cursor: pointer;
+}
+.nav_items_button2:hover{
+    cursor: pointer;
+}
+.head_bur_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 11vh;
+}
+.heading_btn{
+    margin-left: 2.8vw;
+}
+.heading{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    width: 40vw;
+    line-height: 11vh;
+}
+.moto{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 2vh;
+    width: 18vw;
+}
+.order_now{
+    border: none;
+    border-radius: 3vw;
+    width: 6.5vw;
+    height: 6vh;
+    margin-top:3vh;
+    background:linear-gradient(to bottom,#ff5927,#852a0f);
+    color: white;
+}
+.order_now:hover{
+    cursor: pointer;
+}
+.burger_img{
+    width: 60vw;
+    height: 80vh;
+}
+.discount_img{
+    width: 90vw;
+    height: 55vh;
+    margin-left: 10vw;
+}
+.trending_recipes{
+    width: 70vw;
+    height: 45vh;
+    background-color: rgb(29, 29, 29);
+    margin-left: 13.5vw;
+    border-radius: 1vw;
+    margin-top: 7vh;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+.trending_heading{
+    font-size:2.3vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
+}
+.view_all{
+    color: #ff5927;
+    margin-top: 5vh;
+    margin-right: 6vw;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.recipe1{
+    display: flex;
+    flex-direction:column ;
+    width: 14vw;
+    height: 27vh;
+    border-top-right-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    border-top-left-radius: 3vw;
+    background-color: rgb(44, 44, 44);
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+.price_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.price{
+    color: #ff5927;
+    font-weight:700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+.price_salad{
+    color: #ff5927;
+    font-weight:700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    margin-top: 3vh;
+    margin-left: 6.8vw;
+}
+.small_pizza_img{
+    width: 14vw;
+    height: 13vh;
+    margin-top: -3vh;
+    margin-left: 4vw;
+}
+.small_salad_img{
+    width: 14vw;
+    height: 13vh;
+    margin-top: -3vh;
+    margin-left: 2vw;
+}
+.recipename_rating_btn{
+    margin-left: 1vw;
+}
+.recipe_name{
+    color: white;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.rating{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    margin-top: 1vh;
+}
+.order_recipe{
+    border: none;
+    border-top-right-radius: 3vw;
+    border-top-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    width: 6vw;
+    height: 5vh;
+    margin-top:2vh ;
+    background:linear-gradient(to bottom,#ff5927,#852a0f);
+    color: white;
+}
+.Favourite_order_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    margin-top: 5vw;
+    margin-left: 13.5vw;
+}
+span{
+    color: #ff5927;
+}
+.favourite_foods{
+    width: 70vw;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 13.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.food_1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    width: 14vw;
+    height: 40vh;
+    border-radius: 1vh;
+}
+.biryani_img{
+    width: 12vw;
+    height: 30vh;
+    border-radius: 1vh;
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+.biryani_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+.what_we_serve{
+    color: #ff5927;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 18vh;
+    margin-left: 44vw;
+}
+.delivery_partner_text{
+    color: white;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    margin-top: 5vh;
+    margin-left: 38vw;
+}
+.delivery_partner{
+    color: #ff5927;
+    margin-left: 2.8vw;
+}
+.services{
+    display: flex;
+    width: 80vw;
+    height: 40vh;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.man_walking{
+    width: 7vw;
+    height: 15vh;
+}
+.easy_to_order_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+}
+.easy_to_order_description{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    width: 12vw;
+    margin-top: 2vh;
+}
+.section2{
+    width: 100vw;
+    height: 340vh;
+    background-color: rgb(19, 19, 19);
+}
+.our_menu{
+    position: relative;
+    top: 4vh;
+    color: #ff5927;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-left: 47.5vw;
+}
+.menu_quote{
+    color: white;
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    margin-top: 7vh;
+    margin-left: 38vw;
+}
+.you{
+    margin-left: 4.2vw;
+}
+.menu_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    height: 30vh;
+    margin-left: 12vw;
+    margin-top: 5vw;
+}
+.menu_name_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+    height: 40vh;
+}
+.burger_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 8vw;
+    height: 5vh;
+}
+.burger_icon_img{
+    width: 1.5vw;
+    height: 3vh;
+}
+.burger_icon_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5vh;
+}
+.pizza_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9vw;
+    height: 6vh;
+    border: 2px solid #ff5927;
+    border-radius: 3vw;
+    background-color: #ff5927;
+    margin-top: -1vw;
+}
+.pizza_icon_img{
+    width: 2.5vw;
+    height: 3.8vh;
+    margin-top: .5vw;
+    margin-left: 1vh;
+}
+.pizza_icon_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5vh;
+    margin-right: 2vh;
+}
+.sandwich_icon_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5vh;
+}
+.ice_icon_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5vh;
+}
+.noodle_icon_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5vh;
+
+}
+.burger_icon_head:hover{
+    cursor: pointer;
+}
+.sandwich_icon_head:hover{
+    cursor: pointer;
+}
+.ice_icon_head:hover{
+    cursor: pointer;
+}
+.noodle_icon_head:hover{
+    cursor: pointer;
+}
+.pizza_menu_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55vw;
+    gap: 5vh;
+}
+.pizza1{
+    width: 23vw;
+    height: 40vh;
+    border-radius: 2vw;
+    background-color: rgb(32, 32, 32);
+}
+.mushroom_pizza_img{
+    width: 20vw;
+    height: 30vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    border-radius: 1.5vw;
+}
+.mushroom_pizza_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-left:11vh;
+    margin-top: 2vh;
+}
+.arrow{
+    width: 6vw;
+    height: 8vh;
+    margin-top: 16vh;
+}
+.more{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5vh;
+}
+.more:hover{
+    cursor: pointer;
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(32, 32, 32);
+    margin-top: 14vw;
+}
+.head_des_no{
+    position: relative;
+    top: 5vw;
+    left: 11vw;
+}
+.review_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+.about_us_review{
+    color: #ff5927;
+}
+.des{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    width: 26vw;
+    margin-top: 2vh;
+}
+.numbering_review{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    margin-top: 2vh;
+}
+.o5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+.leftarrow{
+    width: 3vw;
+    height: 5vh;
+    margin-top: 2vh;
+}
+.rightarrow{
+    width: 3vw;
+    height: 5vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.people_reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55vw;
+    height: 35vh;
+    position: relative;
+    top: 10vh;
+    left: 13vw;
+}
+.review_one{
+    width: 15vw;
+    height: 32vh;
+    background-color: rgb(42, 42, 42);
+    border-radius: 1vw;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.girl1{
+    width:5vw;
+    height: 7vh;
+    border-radius: .5vw;
+    margin-left: 2vh;
+    margin-top: -1vw;
+}
+.reveiwer_name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.age{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: x-small;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.revewer_reveiw{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width: 13vw;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+.question_head_contact_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80vw;
+    height: 20vh;
+}
+.frequently{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    width: 16vw;
+    margin-top: 5vw;
+}
+.asked_ques_para{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    width: 18vw;
+    margin-top: 7vw;
+    margin-left:-8vw;
+}
+.contact_us{
+    color: white;
+    border-radius: 3vw; 
+    border: none;
+    background:linear-gradient(to bottom,#ff5927,#852a0f);
+    height: 6vh;
+    width: 8vw;
+    position: relative;
+    top: 6vw;
+    left: 40vh;
+}
+.questions{
+    width: 70vw;
+    height: 60vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 3vw;
+    position: relative;
+    top: 5vw;
+    left: 13vw;
+}
+.ques_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70vw;
+    border-radius: 3vw;
+    background-color: #ff5927;
+    height: 20vh;
+}
+.o1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3vw;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+}
+.qq{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.qq1{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 1.7vw;
+}
+.an2{
+    font-size: medium;
+    font-weight: 500;
+    width: 40vw;
+    margin-top: 1vw;
+}
+.minus{
+    width: 3vw;
+    height: 5vh;
+    margin-top: 3.2vw;
+}
+.ques_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+}
+.o2{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3vw;
+    margin-top: 1.5vw;
+    margin-left: 4.5vw;
+}
+.add{
+    width: 3vw;
+    height: 5vh;
+    margin-top: 1.7vw;
+    position: relative;
+    left: -3vw;
+}
+.qq2{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 1.9vw;
+    position: relative;
+    left: -13.8vw;
+}
+.qq3{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 1.9vw;
+    position: relative;
+    left: -8vw;
+}
+.qq4{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 1.9vw;
+    position: relative;
+    left: -8vw;
+}
+.download_app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+    height: 55vh;
+    background-color: rgb(32, 32, 32);
+    border-radius: 3vw;
+    position: relative;
+    top: 20vw;
+    left: 13vw;
+}
+.download_app_head{
+    color: #ff5927;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    position: relative;
+    top: 7vh;
+}
+.download_left_item{
+    margin-left: 5vw;
+}
+.get_started{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    width: 25vw;
+    position: relative;
+    top: 8.5vh;
+}
+.foody_des{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    width: 25vw;
+    position: relative;
+    top: 10vh;
+}
+.get_the_app{
+    color: white;
+    width: 8vw;
+    height: 4vh;
+    border: none;
+    border-radius: 3vw;
+    background:linear-gradient(to bottom,#ff5927,#852a0f);
+    position: relative;
+    top: 13vh;
+}
+.mobile_app{
+    width: 18vw;
+    height: 65vh;
+    margin-right: 10vh;
+    margin-top: -10vw;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(36, 36, 36);
+}
+.address_social_media{
+    position: relative;
+    left: 5vw;
+    top: 10vh;
+}
+.FOOTER_FOODY{
+    color: #ff5927;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+}
+.address{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    width: 15vw;
+    margin-top: 2vh;
+}
+.social_head{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight:200;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+hr{
+    width: 7vw;
+}
+.social_icon{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5vh;
+}
+.icons{
+    margin-top: 2vh;
+    width: 1.5vw;
+    height: 3vh;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 200;
+    margin-top:11vh ;
+}
