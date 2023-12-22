@@ -191,7 +191,7 @@ nav{
   margin-top: 1.348vh;
   margin-left: 6.217vw;
 }
-.netflixbtn{
+.foodybtn{
   color:#3e4169;
   text-decoration: none;
   font-family: 'roboto';
@@ -201,7 +201,7 @@ nav{
   margin-left: 8.181vw;
   
 }
-.netflixbtn:hover{
+.foodybtn:hover{
   cursor:pointer;
   text-decoration: underline;
 }
