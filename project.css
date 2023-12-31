@@ -4,12 +4,22 @@
   padding: 0;
 }
 html,body{
-  overflow-x: hidden;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 body{
   /* background: linear-gradient(to top,#3e4169,rgb(21, 22, 54)); */
+  background: linear-gradient(
+    -45deg,
+    rgb(15, 17, 43),
+    #131422,
+    rgb(17, 19, 51),
+    #1c1d31
+  );
+}
+.main{
+  width: 100%;
   background: linear-gradient(
     -45deg,
     rgb(15, 17, 43),
@@ -136,6 +146,22 @@ nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  position: relative;
+  top: 14vh;
+}
+.project_row_one_new{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 20vh;
+}
+.project_row_one_new_two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 25vh;
 }
 .project_items{
   display: flex;
@@ -149,7 +175,7 @@ nav{
 }
 .project_img1{
   width: 13.089vw;
-  height: 14.52vh;
+  height: 17.52vh;
   margin-top: 1.348vh;
   margin-left: 4.908vw;
 }
@@ -165,12 +191,38 @@ nav{
   margin-top: -2.695vh;
   margin-left: 5.236vw;
 }
+.foodyy{
+  width: 13.743vw;
+  height: 10.868vh;
+  margin-top: 5vh;
+  margin-left: 5.236vw;
+  margin-bottom: 3vh;
+}
+.great{
+  width: 13.743vw;
+  height: 8.868vh;
+  margin-top: 5vh;
+  margin-left: 5.236vw;
+  margin-bottom: 2vh;
+}
+.cynthia{
+  width: 13.743vw;
+  height: 10.868vh;
+  margin-top: 5vh;
+  margin-left: 5.236vw;
+}
+.squarespace{
+  width: 13.743vw;
+  height: 10.868vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  margin-left: 5.236vw;
+}
 .project_item_text1{
   width: 22.251vw;
   height: 13.477vh; 
   border-radius: 1.309vw;
   margin-left: 0.327vw;
-  margin-top:3.5vh;
   background-color: #C8C1E8;
 }
 .project_item_text2{
@@ -197,7 +249,7 @@ nav{
   margin-top: 1.348vh;
   margin-left: 6.217vw;
 }
-.foodybtn{
+.netflixbtn{
   color:#3e4169;
   text-decoration: none;
   font-family: 'roboto';
@@ -207,7 +259,7 @@ nav{
   margin-left: 8.181vw;
   
 }
-.foodybtn:hover{
+.netflixbtn:hover{
   cursor:pointer;
   text-decoration: underline;
 }
@@ -264,7 +316,7 @@ nav{
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -74.124vh;
+  top: -50vh;
   border-radius: 1.309vw;
   border: 3px solid #C8C1E8;
   width: 22.906vw;
