@@ -18,8 +18,12 @@ body {
   font-family:mbf_space;
   src: url(MBF-Space.woff);
 }
+.main{
+  width:100%;
+  background-color: black;
+}
 #header {
-  width: 83.14vw;
+  width: 85.14vw;
   height: 97.5vh;
   background-image: url(newbg.png);
   background-size: cover;
@@ -425,9 +429,6 @@ nav {
   }
   .nav-items{
     font-size: 2vw;
-  }
-  .nav-items:hover{
-    font-size:2vw;
   }
   .white-board-name{
     font-size: 4vw;
