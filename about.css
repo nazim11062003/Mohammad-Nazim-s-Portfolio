@@ -65,23 +65,24 @@ nav{
     justify-content: space-between;
 }
 .nav-items{
-    margin-top: 1.309vw;
-    padding-right: 1.309vw;
+    padding-right:1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
-    font-size:  1.0471204188482vw;
-    color:#C8C1E8;
+    font-size: 1.0471204188482vw;
+    color: #C8C1E8;
     text-decoration: none;
+    margin-top: 2.695vh;
 }
 .nav-items:hover{
-    margin-top: 2.695vh;
     padding-right: 1.309vw;
     font-family: 'Roboto';
     font-weight: 600;
     text-decoration: none;
-    font-size:  1.0471204188482vw;
-    text-decoration: underline 2px;
-    color:#C8C1E8;
+    font-size: 1.0471204188482vw;
+    color: #C8C1E8;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2.695vh;
 }
 @media (max-width:400px) {
     .about{
