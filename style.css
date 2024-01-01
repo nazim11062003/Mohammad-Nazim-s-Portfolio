@@ -454,7 +454,7 @@ nav {
   }
   .html_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .html_text{
     font-size: 1.5vw;
@@ -463,7 +463,7 @@ nav {
   }
   .css_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .css_text{
     font-size: 1.5vw;
@@ -472,7 +472,7 @@ nav {
   }
   .js_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .js_text{
     font-size: 1.5vw;
@@ -481,7 +481,7 @@ nav {
   }
   .tailwind_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .tailwind_text{
     font-size: 1.5vw;
@@ -490,16 +490,16 @@ nav {
   }
   .react_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .react_text{
     font-size: 1.5vw;
-    left: -6.5vw;
+    left: -7vw;
     top: 2.5vw;
   }
   .node_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .node_text{
     font-size: 1.5vw;
@@ -508,7 +508,7 @@ nav {
   }
   .python_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .python_text{
     font-size: 1.5vw;
@@ -517,7 +517,7 @@ nav {
   }
   .java_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .java_text{
     font-size: 1.5vw;
@@ -526,7 +526,7 @@ nav {
   }
   .FIGMA_logo{
     width: 8vw;
-    height: 7vh;
+    height: 5.5vh;
   }
   .figma_text{
     font-size: 1.5vw;
