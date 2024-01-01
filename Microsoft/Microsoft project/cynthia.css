@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'General Sans', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+}
+.main{
+    width: 100%;
+    /* height: 340%; */
+    background-color: black;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+}
+.page2{
+    width: 100vw;
+    height: 110vh;
+}
+.page3{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 17vh;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    font-size: 1.3vw;
+    background-color: black;
+}
+.logo{
+    font-weight: 600;
+    position: relative;
+    left: 7vh;
+    font-weight: 400;
+}
+.menu{
+    position: relative;
+    right: 7vh;
+    top: 1.6vh;
+    font-weight: 400;
+}
+.menu,.plus:hover{
+    cursor: pointer;
+}
+.plus{
+    position: relative;
+    top: -2vh;
+    left: 1vh;
+    width: 1.5vh;
+    height: 1.5vh;
+    filter: invert(1);
+}
+.head{
+    font-size: 5vw;
+    position: relative;
+    top: 10vh;
+}
+.product{
+    color: grey;
+    position: relative;
+    left: 6vh;
+    top: 3.5vh;
+    font-weight: 600;
+}
+.design{
+    color: grey;
+    position: relative;
+    left: 30vh;
+    top: -6vh;
+    font-weight: 600;
+}
+.toronto{
+    font-size: medium;
+    position: relative;
+    top: -8vh;
+    left:54.5vw;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 21vh;
+}
+.work{
+    font-weight: 500;
+    margin-left: 5vh;
+}
+.ambassador{
+    font-weight: 500;
+}
+.free{
+    font-weight: 500;
+    position: relative;
+    top: -8vh;
+    right: 5vh;
+}
+.work,.ambassador,.may,.free:hover{
+    cursor: pointer;
+}
+.may{
+    font-weight: 500;
+    position: relative;
+    top: -6vh;
+    left: 2.5vh;
+}
+.upright{
+    filter: invert(1);
+    height: 2vh;
+    position: relative;
+    top: 0.2vh;
+}
+.text_year{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;   
+    margin-bottom: 7vh;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.text_one{
+    color: grey;
+    font-size: 8vw;
+}
+.plug{
+    opacity: 0;
+    z-index: 99999;
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+}
+.text_year2{
+    border-bottom: 1px solid grey;
+    margin-bottom: 7vh;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.text_two{
+    color: grey;
+    font-size: 8vw;
+}
+.ix{
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+}
+.text_year3{
+    border-bottom: 1px solid grey;
+    margin-bottom: 7vh;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+}
+.text_three{
+    color: grey;
+    font-size: 8vw;
+}
+.hudu{
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+}
+
+.about_pic{
+    display: flex;
+    gap: 5vh;
+    width: 55vw;
+    height: 50vh;
+    position: relative;
+    top: 8vh;
+    left: 35vw;
+}
+.pic{
+    width: 20vw;
+    height: 40vh;
+}
+.about_text{
+    font-weight: 400;
+    position: relative;
+    top: 11vh;
+}
+.btn{
+    position: relative;
+    top: 14vh;
+    border: 1px solid white;
+    background: transparent;
+    width: 6vw;
+    height: 5vh;
+    border-radius: 3vh;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.yt{
+    position: relative;
+    top: 15vh;
+    left: 5vh;
+    font-weight: 400;
+}
+.yt:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 15vh;
+}
+.right{
+    display: flex;
+    gap: 6vh;
+    position: relative;
+    top: 10vh;
+    right: 5vh;
+}
+.social{
+    font-weight: 400;
+}
+.social:hover{
+    cursor: pointer;
+}
+.date{
+    position: relative;
+    top: 10vh;
+    left: 5vh;
+    font-weight: 400;
+}

@@ -1,0 +1,48 @@
+var tl=gsap.timeline()
+tl.from(".logo,.head,.sign_up",{
+    y:-100,
+    duration:0.5,
+    opacity:0,
+    delay:0.3,
+    stagger:0.3
+})
+tl.from(".unlimited,.pretentious,.ideas",{
+    opacity:0,
+    x:-500,
+    duration:0.3,
+    stagger:0.3
+})
+tl.from("hr",{
+    opacity:0,
+    duration:0.2,
+    x:-500
+})
+tl.from(".solution",{
+    scale:0,
+    duration:0.2
+})
+tl.from(".right,.right_img,.call",{
+    scale:0,
+    duration:0.5,
+    stagger:0.5,
+})
+gsap.from(".page2 button",{
+    opacity:0,
+    duration:0.5,
+    stagger:0.3,
+    x:-300,
+    scrollTrigger:{
+        trigger:".page2 button",
+        scroll:"body"
+    }
+})
+gsap.from(".box1,.box2,.box3,.unique,.case,.project,.seven_700,.cloud",{
+    scale:0,
+    duration:0.5,
+    stagger:0.3,
+    delay:1,
+    scrollTrigger:{
+        trigger:".box1,.box2,.box3,.unique,.case,.project,.seven_700,.cloud",
+        scroll:"body"
+    }
+})
