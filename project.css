@@ -481,6 +481,16 @@ nav{
     align-items: center;
     gap: 4.5vw;
   }
+  .project_row_one_new{
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5vw;
+  }
+  .project_row_one_new_two{
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5vw;
+  }
   .project_items{
     width: 70vw;
     border-radius: 5vw;
