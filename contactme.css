@@ -252,30 +252,39 @@ button {
     .contact_form{
         height: 50vh;
         width: 92vw;
+        border-radius: 4.636vw;
     }
     #name{
         width: 88vw;
+        border-radius: 2vw;
     }
     #name:hover{
         width: 88vw;
+        border-radius: 2vw;
     }
     #email{
         width: 88vw;
+        border-radius: 2vw;
     }
     #email:hover{
         width: 88vw;
+        border-radius: 2vw;
     }
     #number{
         width: 88vw;
+        border-radius: 2vw;
     }
     #number:hover{
         width: 88vw;
+        border-radius: 2vw;
     }
     #message{
         width: 88vw;
+        border-radius: 2vw;
     }
     #message:hover{
         width: 88vw;
+        border-radius: 2vw;
     }
     button{
         width: 25vw;
