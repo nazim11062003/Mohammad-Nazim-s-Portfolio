@@ -251,31 +251,31 @@ button {
     }
     .contact_form{
         height: 50vh;
-        width: 50vw;
+        width: 92vw;
     }
     #name{
-        width: 46vw;
+        width: 88vw;
     }
     #name:hover{
-        width: 46vw;
+        width: 88vw;
     }
     #email{
-        width: 46vw;
+        width: 88vw;
     }
     #email:hover{
-        width: 46vw;
+        width: 88vw;
     }
     #number{
-        width: 46vw;
+        width: 88vw;
     }
     #number:hover{
-        width: 46vw;
+        width: 88vw;
     }
     #message{
-        width: 46vw;
+        width: 88vw;
     }
     #message:hover{
-        width: 46vw;
+        width: 88vw;
     }
     button{
         width: 25vw;
@@ -289,9 +289,9 @@ button {
         top: -0.4vh;
     }
     .contact_img{
-        width: 40vw;
-        height: 40vh;
-        margin-top: 12vh;
+        opacity:0;
+        width: 0vw;
+        height: 0vh;
     }
 }
    
