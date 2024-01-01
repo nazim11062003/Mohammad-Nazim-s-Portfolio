@@ -94,10 +94,11 @@ nav{
     .nav-items{
         font-size: 2vw;
     }
-    .abstract{
+.abstract{
         width: 50vw;
-        margin-left:-14vw;
-        margin-top: -8vh;
+        position: relative;
+        top: 23vh;
+        left: 20vw;
         opacity: 25%;
     }
     .hi{
@@ -105,14 +106,14 @@ nav{
     }
     .text_box{
         font-size: 3vw;
-        width: 55vw;
-        margin-left: -110vw;
-        margin-top: -21.5vh;
+        width: 90vw;
+        position: relative;
+        left: 43vw;
+        top: -5vh;
     }
     .man{
-        margin-left: 30vw;
-        margin-top: -35vh;
-        width: 90vw;
-        height: 70vh;
+        width: 0vw;
+        height: 0vh;
+        opacity: 0;
     }
 }
