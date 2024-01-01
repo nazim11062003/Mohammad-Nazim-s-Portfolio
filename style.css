@@ -43,14 +43,14 @@ nav {
   /* margin-right: -110px; */
   margin-right: -7.1989528795812vw;
 }
-.nav-items {
-  padding-right:1.3089005235602vw;
-  font-family: "Roboto";
+.nav-items{
+  padding-right:1.309vw;
+  font-family: 'Roboto';
   font-weight: 600;
   font-size: 1.0471204188482vw;
-  color: white;
+  color: #C8C1E8;
   text-decoration: none;
-  margin-top: 1.348vh;
+  margin-top: 2.695vh;
 }
 .name {
   font-family: "Roboto";
@@ -58,16 +58,18 @@ nav {
   margin-left: -4.5811518324607vw;
   padding-left:0.45811518324607vw;
   font-weight: 600;
-  margin-top: 1.348vh;
+  margin-top: 2.695vh;
 }
 .nav-items:hover {
-  padding-right:1.3089005235602vw;
-  font-family: "Roboto";
+  padding-right: 1.309vw;
+  font-family: 'Roboto';
   font-weight: 600;
   text-decoration: none;
-  font-size:  1.0471204188482vw;
-  color: white;
+  font-size: 1.0471204188482vw;
+  color: #C8C1E8;
   text-align: center;
+  text-decoration: underline;
+  margin-top: 2.695vh;
   -webkit-animation: glow 1s ease infinite alternate;
   -moz-animation: glow 1s ease infinite alternate;
   animation: glow 1s ease infinite alternate;
