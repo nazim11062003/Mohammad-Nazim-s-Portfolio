@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merienda&family=Montserrat&family=Roboto:wght@100&family=Tourney:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalnia:wght@500;700&family=Merienda&family=Montserrat&family=Roboto:wght@100&family=Tourney:wght@100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    /* height: 300%; */
+    background-color: rgb(0, 0, 0);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    top: 3vh;
+    z-index: 999;
+}
+.nav_text{
+    font-size: 2vh;
+}
+.nav_text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.location_img{
+    width: 6vh;
+    height: 6vh;
+    filter: invert(1);
+}
+.location_img:hover{
+    cursor: pointer;
+}
+video{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: -10vh;
+}
+.hero_head{
+    position: relative;
+    top: -75vh;
+    left: 18vw;
+    font-size: 6vw;
+    font-family: 'Kalnia', serif;
+    font-weight: 500;
+}
+.wonder{
+    font-size: 1.5vw;
+    position: relative;
+    left:21vw
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.explore{
+    font-family: 'Kalnia', serif;
+    font-weight: 500;
+    position: relative;
+    left: 40vw;
+}
+.p2_text{
+    width:35vw;
+    text-align: center;
+    position: relative;
+    top: 4vh;
+    left: 33vw;
+}
+.images_p2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15vh;
+}
+.imggg{
+    position: relative;
+    top: 14vh;
+    width: 25vw;
+    height: 55vh;
+    border-radius: 4vh;
+}
+.imggg:hover{
+    cursor: pointer;
+}
+.place_text1{
+    position: relative;
+    top: 2vh;
+    font-size: 2vw;
+    left: 9vw;
+    font-family: 'Kalnia', serif;
+}
+.place_text2{
+    position: relative;
+    top: 2vh;
+    font-size: 2vw;
+    left: 4.5vw;
+    font-family: 'Kalnia', serif;
+}
+.place_text3{
+    position: relative;
+    top: 2vh;
+    font-size: 2vw;
+    left: 6vw;
+    font-family: 'Kalnia', serif;
+}
+.text1{
+    font-size: 1vw;
+}
+.text2{
+    font-size: 1vw;
+    position: relative;
+    left: 4.5vw;
+}
+.text3{
+    font-size: 1vw;
+    position: relative;
+    left: 4.5vw;
+}
+.see_all{
+    position: relative;
+    left: 48.5vw;
+    top: 10vh;
+    color: rgb(49, 49, 220);
+}
+.see_all:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#journal{
+    top: 5vh;
+    left: 44vw;
+}
+#p3_text{
+    left: 35vw;
+    top: 7vh;
+}
+.p3_img_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20vw;
+}
+.img1{
+    width:25vw;
+    height: 50vh;
+    position: relative;
+    top: 14vh;
+    border-radius: 4vh;
+}
+.img1:hover{
+    cursor: pointer;
+}
+.date{
+    position: relative;
+    top: 18vh;
+    left: 9vw;
+    font-size: small;
+    font-weight: 300;
+}
+.p3_place_text1{
+    position: relative;
+    left: 6vw;
+    top: 19vh;
+    font-family: 'Kalnia', serif;
+}
+.p3_place_des{
+    position: relative;
+    top: 21vh;
+    left: 1.5vw;
+    width: 20vw;
+    text-align: center;
+}
+#symphonies{
+    left: 6vw;
+}
+#crossing{
+    left: 3vw;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    border: none;
+}
+.footer_img{
+    object-fit: cover;
+    width: 100%;
+    height: 50vh;
+}
