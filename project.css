@@ -638,11 +638,11 @@ nav{
     margin-left: 7vw;
   }
   .blob{
-    width: 25vw;
+    width: 43vw;
     height: 30vh;
   }
   .blob:hover{
-    width: 27vw;
-    height: 32vh;
+    width: 46vw;
+    height: 33vh;
   }
 }
