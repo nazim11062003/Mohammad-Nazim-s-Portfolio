@@ -61,7 +61,7 @@ tl.from(".project_items",{
     stagger:0.3,
 })
 
-gsap.from(".project_row_one_new,.project_row_one_new_two,.project_row_two",{
+/*gsap.from(".project_row_one_new,.project_row_one_new_two,.project_row_two",{
     opacity:0,
     y:100,
     duration:0.5,
@@ -71,5 +71,5 @@ gsap.from(".project_row_one_new,.project_row_one_new_two,.project_row_two",{
         scroller:".main",
         start:"top 180%"
     }
-})
+})*/
 
